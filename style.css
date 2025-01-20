@@ -61,7 +61,6 @@ body{
 
 .pilih{
     color: white;
-    height: 500px;
 }
 
 .btn-bootcamp{
@@ -71,11 +70,6 @@ body{
     margin: 10px;
 }
 
-.btn-bootcamp p{
-    padding: 15px;
-    color: black;
-    font-size: 20px;
-}
 
 .btn-private{
     border-radius: 10px;
@@ -84,12 +78,15 @@ body{
     margin: 10px;
 }
 
-.btn-private p{
-    padding: 15px;
-    color: black;
-    font-size: 20px;
-}
 
 .content {
     height: 180px;
+}
+
+.header{
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    top: 0;
 }
